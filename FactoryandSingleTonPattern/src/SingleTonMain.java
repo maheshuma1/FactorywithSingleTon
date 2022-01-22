@@ -19,6 +19,9 @@ public class SingleTonMain {
 	
 	public static SingleTonMain getrunner() {
 		return SM;
-		
+	}
+	
+	public static SingleTonMain getDetails() {
+		return SM;
 	}
 }

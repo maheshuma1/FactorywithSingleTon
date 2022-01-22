@@ -1,6 +1,14 @@
+import org.testng.annotations.Test;
+
 public class Executor {
 	
-	public static void main(String in[]) {
+	@Test
+	public void testFetchDetails() {
 		SingleTonMain SM = SingleTonMain.getrunner();
+	}
+	
+	@Test
+	public void testGetRequirement() {
+		SingleTonMain sm = SingleTonMain.getDetails();
 	}
 }
